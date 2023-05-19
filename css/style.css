@@ -1,0 +1,100 @@
+*{
+padding:0;
+margin:0;
+}
+.main_container{
+	width:100%;
+}
+.card_section{
+	position:relative;
+	width:400px;
+	height:400px;
+}
+.card1_section{
+	width:400px;
+	height:400px;
+	
+	margin-left:300px;
+	animation-name:move;
+	position:absolute;
+	overflow:hidden;
+	animation-delay:0s;
+	/* transform:transformx(30px); */
+	animation-duration:2s;
+	opacity:0;
+	animation-fill-mode: forwards;
+}
+
+
+
+@keyframes move{
+	
+0%{
+opacity:0;
+}
+
+90%{
+opacity:1;
+}
+
+100%{
+	opacity:0;
+}
+
+
+
+}
+.card2_section{
+	width:400px;
+	height:400px;
+
+	margin-left:300px;
+	animation-name:move2;
+	position:absolute;
+	overflow:hidden;
+	animation-delay:1.9s;
+	animation-duration:3s;
+	opacity:0;
+	animation-fill-mode: forwards;
+	
+}
+
+
+@keyframes move2{
+	
+0%{
+opacity:0;
+}
+
+40%{
+opacity:1;
+}
+100%{
+	opacity:0;
+}
+}
+.card3_section{
+	width:400px;
+	height:400px;
+	
+	margin-left:300px;
+	animation-name:move3;
+	
+	overflow:hidden;
+	animation-delay:3s;
+	animation-duration:1s;
+	opacity:0;
+	animation-fill-mode: forwards;
+	
+}
+
+
+@keyframes move3{
+	
+0%{
+opacity:0;
+}
+100%{
+	opacity:1;
+}
+}
